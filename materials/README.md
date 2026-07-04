@@ -22,6 +22,7 @@ Current source context:
 | [technical-handover.md](technical-handover.md) | Engineering handover for continuing beyond the mirrored bundle. |
 | [qa-and-evidence-checklist.md](qa-and-evidence-checklist.md) | Pre-demo checks and evidence checklist. |
 | [product-copy-bank.md](product-copy-bank.md) | Taglines, short descriptions, UI copy, and FAQ text. |
+| [tiger-mum-cashflow-persona.md](tiger-mum-cashflow-persona.md) | Optional strict-but-caring co-pilot persona and prompt layer. |
 | [project-provenance-and-update-log.md](project-provenance-and-update-log.md) | Timeline of what was cloned, synced, verified, and what remains unknown. |
 | [screenshots/runway-arcade-dashboard.png](screenshots/runway-arcade-dashboard.png) | Current dashboard screenshot from the local mirror. |
 | [screenshots/runway-arcade-judge-demo.png](screenshots/runway-arcade-judge-demo.png) | MAYDAY / Judge demo screenshot from the local mirror. |

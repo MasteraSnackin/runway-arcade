@@ -31,6 +31,8 @@ Runway Arcade is a Xero finance co-pilot for small businesses. It converts invoi
 | Payment plan | Flight Route |
 | Urgent diagnosis | MAYDAY |
 | AI assistant | Xero Co-Pilot |
+| Strict guidance mode | Tiger Mum Mode |
+| Persona name | Auntie Mei |
 | Recommendation evidence | Evidence Card |
 | Safety state | Approval required |
 | Local mode | Demo fallback |
@@ -60,3 +62,17 @@ Cash pressure is easier to understand when it is operational. Fuel, hazards, res
 ### What makes the AI safe?
 
 The assistant should use bounded tools, deterministic finance calculations, explicit evidence, approval gates and audit logs. It should not independently execute financial actions.
+
+### What is Tiger Mum Mode?
+
+Tiger Mum Mode is an optional stricter co-pilot voice: direct, caring and disciplined about cashflow. It can use the Auntie Mei persona, an Asian-British family-business cashflow mentor, but it must avoid caricature, fake accent, stereotypes or shame. The finance guardrails stay exactly the same.
+
+## Tiger Mum Mode Copy
+
+- Cash is oxygen. We protect oxygen.
+- We do not guess with payroll.
+- Chase the money that is already yours.
+- Approval first, action second.
+- No heroics. We protect runway.
+- This invoice is not a decoration.
+- Do not pay the loudest supplier first. Pay the bill that protects the business.
