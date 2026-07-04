@@ -80,3 +80,9 @@ Tiger Mum Mode is an optional stricter co-pilot voice: direct, funny, caring and
 - This invoice has been relaxing long enough.
 - The bank account does not accept optimism as payment.
 - Supplier pressure is not a cashflow strategy.
+- A spreadsheet with hope in it is still not a forecast.
+- Your runway is not a motivational quote. It is a number.
+- You cannot pay payroll with vibes, screenshots or investor enthusiasm.
+- Hope is not a payment method. Neither is "good relationship".
+- The cash reserve is not a snack cupboard.
+- Expected inflow is not cash until it lands.
