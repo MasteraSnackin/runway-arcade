@@ -41,6 +41,7 @@ The 2026-07-04 preview update adds stronger Cash Flow Accelerator positioning, a
 17. [User Guide](17-user-guide.md)
 18. [Decision Log](18-decision-log.md)
 19. [Lovable Rebuild Pack](19-lovable-rebuild-pack.md)
+20. [Tiger Mum Mode Integration Guide](20-tiger-mum-integration-guide.md)
 
 Standalone diagram sources are in [diagrams/](diagrams/).
 

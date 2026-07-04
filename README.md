@@ -30,6 +30,17 @@ The current local app is a deployed preview mirror rather than the original edit
 | `docs/` | Product, technical, API, calculation, security, QA, rebuild and user documentation. |
 | `materials/` | Project collateral for hackathon submission, judging, pitch, handover and launch copy. |
 
+## Tiger Mum Mode
+
+The strict cashflow co-pilot persona is documented in `materials/tiger-mum-cashflow-persona.md`.
+
+To add it to an editable source version of the app, use:
+
+- `docs/20-tiger-mum-integration-guide.md` for where to place the toggle, how to wire chat requests, and how to merge the prompt safely.
+- `materials/persona-configs/tiger-mum-mode.json` as the implementation-ready persona configuration.
+
+The local `runway-arcade-local/` app is a mirrored deployed bundle, so the proper place to add the feature is the recovered Lovable/Git source or a rebuilt source app, not the minified deployed JavaScript.
+
 ## Run The Local App
 
 ```sh
