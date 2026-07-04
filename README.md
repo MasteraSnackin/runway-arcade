@@ -12,6 +12,16 @@ The current local app is a deployed preview mirror rather than the original edit
 - Current deployed revision: `d6b609f0030ef666ff7958e08c7838e3cfc3ee20`
 - Last synced locally: `2026-07-04T15:01:19Z`
 
+## Screenshots
+
+### Dashboard Overview
+
+![Runway Arcade dashboard overview](materials/screenshots/runway-arcade-dashboard.png)
+
+### MAYDAY / Judge Demo State
+
+![Runway Arcade MAYDAY protocol demo](materials/screenshots/runway-arcade-judge-demo.png)
+
 ## Workspace Contents
 
 | Path | Purpose |

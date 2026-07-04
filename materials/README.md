@@ -24,6 +24,7 @@ Current source context:
 | [product-copy-bank.md](product-copy-bank.md) | Taglines, short descriptions, UI copy, and FAQ text. |
 | [project-provenance-and-update-log.md](project-provenance-and-update-log.md) | Timeline of what was cloned, synced, verified, and what remains unknown. |
 | [screenshots/runway-arcade-dashboard.png](screenshots/runway-arcade-dashboard.png) | Current dashboard screenshot from the local mirror. |
+| [screenshots/runway-arcade-judge-demo.png](screenshots/runway-arcade-judge-demo.png) | MAYDAY / Judge demo screenshot from the local mirror. |
 
 ## Positioning
 
