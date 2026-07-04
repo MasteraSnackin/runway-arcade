@@ -1,0 +1,16 @@
+flowchart TD
+    A["Open Runway Arcade"]
+    B["Select scenario"]
+    C["Review fuel gauge and radar hazards"]
+    D["Ask co-pilot or use preset prompt"]
+    E["Review tool calls and evidence"]
+    F["Review proposed route or action"]
+    G{"Approve simulation?"}
+    H["Record simulated approval"]
+    I["Search or export audit trail"]
+    J["No action taken"]
+
+    A --> B --> C --> D --> E --> F --> G
+    G -->|Yes| H --> I
+    G -->|No| J
+

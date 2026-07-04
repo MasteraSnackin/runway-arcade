@@ -1,0 +1,8 @@
+stateDiagram-v2
+    [*] --> Draft
+    Draft --> NeedsApproval: recommendation created
+    NeedsApproval --> SimApproved: user selects approve simulate
+    NeedsApproval --> Dismissed: user ignores or clears
+    SimApproved --> Audited: audit event recorded
+    Audited --> [*]
+

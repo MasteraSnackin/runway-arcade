@@ -1,0 +1,22 @@
+flowchart TD
+    Start["User opens scenario"]
+    Adapter["Xero adapter or demo fixture adapter"]
+    Normalise["Normalise finance records"]
+    Calculate["Finance helper calculations"]
+    Render["Dashboard cards"]
+    Prompt["Co-pilot prompt"]
+    Tools["Read-only AI tools"]
+    Evidence["Evidence cards"]
+    Proposal["Approval queue"]
+    Audit["Audit trail"]
+
+    Start --> Adapter
+    Adapter --> Normalise
+    Normalise --> Calculate
+    Calculate --> Render
+    Render --> Prompt
+    Prompt --> Tools
+    Tools --> Evidence
+    Evidence --> Proposal
+    Proposal --> Audit
+

@@ -1,0 +1,15 @@
+flowchart LR
+    User["Small business user"]
+    Browser["Runway Arcade web app"]
+    Backend["Application backend"]
+    Xero["Xero Accounting API"]
+    AI["AI co-pilot runtime"]
+    Audit["Audit store"]
+
+    User --> Browser
+    Browser --> Backend
+    Backend --> Xero
+    Backend --> AI
+    Backend --> Audit
+    AI --> Backend
+
