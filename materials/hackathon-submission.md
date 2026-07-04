@@ -61,7 +61,7 @@ Safety features:
 
 - Local URL: `http://localhost:4173/`
 - Current preview: `https://lovable.dev/preview/9PwGxwRjJf0sZ7tbEsUsruPWSBJYRozm`
-- Current revision: `d6b609f0030ef666ff7958e08c7838e3cfc3ee20`
+- Current revision: `a1bbe10e2a867d78dfaa7354152e0abd5a8b8221`
 - Verified locally on 2026-07-04.
 
 ## What Makes It Distinctive

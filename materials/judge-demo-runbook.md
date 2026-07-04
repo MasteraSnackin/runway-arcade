@@ -30,6 +30,7 @@ Confirm:
 - header subtitle includes `Xero Cash Flow Accelerator`
 - scenario tabs are visible
 - `Judge demo` and `MAYDAY` controls are visible
+- `Top Gun` mode and `Tiger Mom` / `Tiger Mum` controls are visible
 - no Lovable badge is visible
 
 ## Demo Flow
@@ -131,7 +132,8 @@ npm run sync -- https://lovable.dev/preview/9PwGxwRjJf0sZ7tbEsUsruPWSBJYRozm
 If the browser still shows old assets:
 
 - hard reload the page
-- confirm `runway-arcade-local/mirror-info.json` contains revision `d6b609f0030ef666ff7958e08c7838e3cfc3ee20`
+- confirm `runway-arcade-local/mirror-info.json` contains revision `a1bbe10e2a867d78dfaa7354152e0abd5a8b8221`
+- note that the latest mirror currently mixes `Tiger Mom` and `Tiger Mum` labels; this is a source follow-up, not a local mirror bug
 
 ## Do Not Claim
 

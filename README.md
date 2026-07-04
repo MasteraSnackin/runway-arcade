@@ -9,8 +9,8 @@ The current local app is a deployed preview mirror rather than the original edit
 - Current Lovable preview: `https://lovable.dev/preview/9PwGxwRjJf0sZ7tbEsUsruPWSBJYRozm`
 - Local mirror: `runway-arcade-local/`
 - Local URL: `http://localhost:4173/`
-- Current deployed revision: `d6b609f0030ef666ff7958e08c7838e3cfc3ee20`
-- Last synced locally: `2026-07-04T15:01:19Z`
+- Current deployed revision: `a1bbe10e2a867d78dfaa7354152e0abd5a8b8221`
+- Last synced locally: `2026-07-04T17:17:25Z`
 
 ## Screenshots
 
@@ -30,16 +30,17 @@ The current local app is a deployed preview mirror rather than the original edit
 | `docs/` | Product, technical, API, calculation, security, QA, rebuild and user documentation. |
 | `materials/` | Project collateral for hackathon submission, judging, pitch, handover and launch copy. |
 
-## Tiger Mum Mode
+## Persona Modes
 
-The strict cashflow co-pilot persona is documented in `materials/tiger-mum-cashflow-persona.md`.
+The latest mirrored app includes optional persona/mode controls:
 
-To add it to an editable source version of the app, use:
+- `Tiger Mum` / `Tiger Mom` cashflow discipline mode.
+- `Top Gun` mode controls in the command bar and desktop side rail.
+- A co-pilot persona row inside the Xero Co-Pilot panel.
 
-- `docs/20-tiger-mum-integration-guide.md` for where to place the toggle, how to wire chat requests, and how to merge the prompt safely.
-- `materials/persona-configs/tiger-mum-mode.json` as the implementation-ready persona configuration.
+The Tiger Mum persona is documented in `materials/tiger-mum-cashflow-persona.md`. Implementation-ready persona configs are in `materials/persona-configs/`.
 
-The local `runway-arcade-local/` app is a mirrored deployed bundle, so the proper place to add the feature is the recovered Lovable/Git source or a rebuilt source app, not the minified deployed JavaScript.
+The local `runway-arcade-local/` app is still a mirrored deployed bundle, so source-level changes should happen in the recovered Lovable/Git source or a rebuilt source app, not the minified deployed JavaScript.
 
 ## Run The Local App
 

@@ -3,7 +3,7 @@
 ## Pre-Demo Environment
 
 - [ ] `runway-arcade-local/mirror-info.json` points to `https://lovable.dev/preview/9PwGxwRjJf0sZ7tbEsUsruPWSBJYRozm`.
-- [ ] Revision is `d6b609f0030ef666ff7958e08c7838e3cfc3ee20`.
+- [ ] Revision is `a1bbe10e2a867d78dfaa7354152e0abd5a8b8221`.
 - [ ] Local server responds at `http://localhost:4173/`.
 - [ ] Browser tab is hard reloaded before judging.
 - [ ] No Lovable badge is visible.
@@ -20,6 +20,9 @@
 - [ ] Scenario controls are visible: Normal flight, Payroll week, Late customer, Supplier pressure, Cash squeeze.
 - [ ] `Judge demo` control is visible.
 - [ ] `MAYDAY` control is visible.
+- [ ] `Top Gun` mode control is visible in the command bar or side rail.
+- [ ] `Tiger Mom` / `Tiger Mum` mode control is visible.
+- [ ] Persona spelling is acceptable for the submission; the latest mirror currently mixes `Tiger Mom` and `Tiger Mum`.
 - [ ] Fuel Gauge / Runway section is visible.
 - [ ] Cash Radar / Hazards section is visible.
 - [ ] Next 7 Days Forecast section is visible.
@@ -45,6 +48,8 @@
 - [ ] Preset prompt `What hazards are due this week?` is visible.
 - [ ] Preset prompt `Plot a safe payment route` is visible.
 - [ ] Preset prompt `Start MAYDAY diagnosis` is visible.
+- [ ] Persona row is visible in the Xero Co-Pilot panel.
+- [ ] Voice reply/input controls are visible or gracefully disabled.
 - [ ] Co-pilot answers include evidence rather than unsupported advice.
 
 ## Xero Readiness Checks

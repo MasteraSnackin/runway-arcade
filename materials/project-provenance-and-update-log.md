@@ -9,11 +9,11 @@ This workspace was built from Lovable preview links shared in the chat. The link
 - Current preview: `https://lovable.dev/preview/9PwGxwRjJf0sZ7tbEsUsruPWSBJYRozm`
 - Current local folder: `runway-arcade-local/`
 - Current local URL: `http://localhost:4173/`
-- Current revision: `d6b609f0030ef666ff7958e08c7838e3cfc3ee20`
+- Current revision: `a1bbe10e2a867d78dfaa7354152e0abd5a8b8221`
 - Current asset files:
-  - `assets/index-Bugp4WXB.js`
-  - `assets/routes-BHZThtw9.js`
-  - `assets/styles-HrK71RAl.css`
+  - `assets/index-DlLXWM-9.js`
+  - `assets/routes-CWVTs9Fu.js`
+  - `assets/styles-ImyTF_xa.css`
 
 ## Timeline
 
@@ -109,6 +109,33 @@ The in-app browser verification confirmed:
 ### Local Fallback Stub
 
 The current deployed bundle fetches `/api/xero/status` and `/api/xero/live-dataset`. In a pure static mirror those paths returned `index.html`, which made the UI show JSON parse errors. The local `server.js` now returns read-only demo fallback JSON for those two endpoints so the app presents a clean `Using demo fallback` state without implying a live Xero connection.
+
+### Persona Modes Preview Sync
+
+The preview was synced again on 2026-07-04 after the persona prompts were applied in Lovable.
+
+The mirror is now synced to:
+
+```text
+a1bbe10e2a867d78dfaa7354152e0abd5a8b8221
+```
+
+Current asset files:
+
+- `assets/index-DlLXWM-9.js`
+- `assets/routes-CWVTs9Fu.js`
+- `assets/styles-ImyTF_xa.css`
+
+Observed bundle changes:
+
+- top command bar includes `Top Gun` and `Tiger Mom` mode controls
+- desktop side rail includes a vertical `Top Gun` mode control
+- Xero Co-Pilot panel includes a `Persona` row with `Tiger Mum OFF`
+- family coach mode can reveal a `Tiger Mom Rules` strip with cash discipline prompt shortcuts
+- co-pilot panel includes voice reply and voice input controls
+- footer/banner copy can state `Licensed references enabled with permission`
+
+Open QA note: the bundle mixes `Tiger Mom` and `Tiger Mum` labels. The local mirror records that difference but does not fix it because the editable source is not present.
 
 ## Known Unknowns
 

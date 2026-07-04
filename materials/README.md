@@ -8,7 +8,7 @@ Current source context:
 - Current preview: `https://lovable.dev/preview/9PwGxwRjJf0sZ7tbEsUsruPWSBJYRozm`
 - Local mirror: `../runway-arcade-local/`
 - Local URL: `http://localhost:4173/`
-- Current revision: `d6b609f0030ef666ff7958e08c7838e3cfc3ee20`
+- Current revision: `a1bbe10e2a867d78dfaa7354152e0abd5a8b8221`
 - Material date: 2026-07-04
 
 ## Contents
@@ -24,6 +24,7 @@ Current source context:
 | [product-copy-bank.md](product-copy-bank.md) | Taglines, short descriptions, UI copy, and FAQ text. |
 | [tiger-mum-cashflow-persona.md](tiger-mum-cashflow-persona.md) | Optional strict-but-caring co-pilot persona and prompt layer. |
 | [persona-configs/tiger-mum-mode.json](persona-configs/tiger-mum-mode.json) | Implementation-ready persona config for a rebuilt source app. |
+| [persona-configs/top-gun-mode.json](persona-configs/top-gun-mode.json) | Implementation-ready aviation-style persona config for a rebuilt source app. |
 | [project-provenance-and-update-log.md](project-provenance-and-update-log.md) | Timeline of what was cloned, synced, verified, and what remains unknown. |
 | [screenshots/runway-arcade-dashboard.png](screenshots/runway-arcade-dashboard.png) | Current dashboard screenshot from the local mirror. |
 | [screenshots/runway-arcade-judge-demo.png](screenshots/runway-arcade-judge-demo.png) | MAYDAY / Judge demo screenshot from the local mirror. |

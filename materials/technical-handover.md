@@ -9,7 +9,7 @@ Current mirror:
 - Folder: `runway-arcade-local/`
 - URL: `http://localhost:4173/`
 - Preview: `https://lovable.dev/preview/9PwGxwRjJf0sZ7tbEsUsruPWSBJYRozm`
-- Revision: `d6b609f0030ef666ff7958e08c7838e3cfc3ee20`
+- Revision: `a1bbe10e2a867d78dfaa7354152e0abd5a8b8221`
 - Project ID: `868fe2dc-e74f-4b2b-a3ec-03cebe4a540b`
 
 ## Important Files

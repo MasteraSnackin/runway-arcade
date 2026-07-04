@@ -6,7 +6,7 @@ Purpose: a practical pack for recreating the observed Lovable preview in a new L
 
 Current source inspected: `https://lovable.dev/preview/9PwGxwRjJf0sZ7tbEsUsruPWSBJYRozm`
 
-Current deployed revision: `d6b609f0030ef666ff7958e08c7838e3cfc3ee20`
+Current deployed revision: `a1bbe10e2a867d78dfaa7354152e0abd5a8b8221`
 
 Earlier source inspected during setup: `https://lovable.dev/preview/8MIGZbXsIhyYDnbqNN0H8AoLjBzeUR22`
 

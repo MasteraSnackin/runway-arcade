@@ -4,7 +4,7 @@ Project: `Runway Arcade - Xero Finance Co-Pilot`
 
 Current source inspected: https://lovable.dev/preview/9PwGxwRjJf0sZ7tbEsUsruPWSBJYRozm
 
-Current deployed revision: `d6b609f0030ef666ff7958e08c7838e3cfc3ee20`
+Current deployed revision: `a1bbe10e2a867d78dfaa7354152e0abd5a8b8221`
 
 Earlier source inspected during setup: https://lovable.dev/preview/8MIGZbXsIhyYDnbqNN0H8AoLjBzeUR22
 
@@ -19,6 +19,8 @@ This documentation pack is derived from the working Lovable preview and the loca
 The preview presents a demo product for a small business finance user. It reads Xero-style demo data, shows cash runway and near-term risks, proposes safe payment/chase routes, and simulates approvals without writing to Xero.
 
 The 2026-07-04 preview update adds stronger Cash Flow Accelerator positioning, a visible Xero status/fallback chip, judge demo controls, an evidence ledger, and clearer diagnostics while retaining the Runway Arcade cockpit metaphor.
+
+The latest 2026-07-04 sync to revision `a1bbe10e2a867d78dfaa7354152e0abd5a8b8221` also adds visible persona/mode controls: `Top Gun`, `Tiger Mom` / `Tiger Mum`, co-pilot voice controls, and a Tiger Mom rules strip when the family coach mode is enabled.
 
 ## Documents
 
@@ -55,8 +57,9 @@ Related project collateral is in the workspace-level [materials](../materials/) 
 - Main scenarios: normal flight, payroll week, late customer, supplier pressure, cash squeeze.
 - Main dashboard sections: cash flow accelerator, fuel gauge/runway, cash radar hazards, next 7 days forecast, rescue beacons, approval queue, approvals audit trail, route plan, recovery plan, pinned evidence, mission objectives, Xero evidence ledger, diagnostics, agent run log, live Xero path, evidence card self-test, Xero co-pilot.
 - Current app data date shown in preview: 2026-07-03.
-- Current local mirror revision: `d6b609f0030ef666ff7958e08c7838e3cfc3ee20`.
+- Current local mirror revision: `a1bbe10e2a867d78dfaa7354152e0abd5a8b8221`.
 - Current local app status observed on 2026-07-04: `Using demo fallback`, served by local read-only JSON stubs for the mirrored app's Xero status endpoints.
+- Current persona/mode controls observed on 2026-07-04: top-bar `Top Gun`, top-bar `Tiger Mom`, co-pilot `Tiger Mum OFF`, and voice reply/input controls.
 - The demo clearly states that approvals are simulation only and no Xero writes occur.
 
 ## Open Decisions
@@ -64,4 +67,6 @@ Related project collateral is in the workspace-level [materials](../materials/) 
 - Final production stack is unknown because the original editable source was not available.
 - Xero write capability is not part of the observed MVP. Whether production should write to Xero needs explicit product and compliance approval.
 - Exact Xero OAuth scopes must be confirmed against Xero's current developer documentation before production implementation.
+- The mirrored app contains copy stating `Licensed references enabled with permission`; the local mirror does not independently verify that permission.
+- The latest bundle mixes `Tiger Mom` and `Tiger Mum` labels. Choose one spelling before submission or production handover.
 - User roles, billing model, tenant model, hosting target, and retention policy are not visible in the preview.

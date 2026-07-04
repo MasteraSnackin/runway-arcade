@@ -44,8 +44,9 @@ Core product areas:
 
 - Local mirror runs at `http://localhost:4173/`.
 - Current mirrored preview is `https://lovable.dev/preview/9PwGxwRjJf0sZ7tbEsUsruPWSBJYRozm`.
-- Current deployed revision is `d6b609f0030ef666ff7958e08c7838e3cfc3ee20`.
+- Current deployed revision is `a1bbe10e2a867d78dfaa7354152e0abd5a8b8221`.
 - The in-app browser was verified after sync: title, Runway Arcade heading, Xero co-pilot content, scenario tabs and MAYDAY controls render without browser warnings or errors.
+- The latest mirror includes Top Gun mode controls, Tiger Mom / Tiger Mum controls, a co-pilot persona row, and voice reply/input UI.
 
 ## Safety Posture
 

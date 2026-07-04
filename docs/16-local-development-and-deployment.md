@@ -18,8 +18,8 @@ Current mirror provenance:
 
 - Preview URL: `https://lovable.dev/preview/9PwGxwRjJf0sZ7tbEsUsruPWSBJYRozm`
 - Project ID: `868fe2dc-e74f-4b2b-a3ec-03cebe4a540b`
-- Deployed revision: `d6b609f0030ef666ff7958e08c7838e3cfc3ee20`
-- Synced locally: `2026-07-04T15:01:19Z`
+- Deployed revision: `a1bbe10e2a867d78dfaa7354152e0abd5a8b8221`
+- Synced locally: `2026-07-04T17:17:25Z`
 
 ## Run the Local Preview Mirror
 
