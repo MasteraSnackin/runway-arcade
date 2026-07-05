@@ -2,7 +2,7 @@
 
 Runway Arcade is a local hackathon workspace for a Lovable-built Xero finance co-pilot demo.
 
-The current local app is a deployed preview mirror rather than the original editable source. It is useful for demo review, documentation, and rebuild planning. The editable Lovable/Git source was not exposed by the preview links inspected in this chat.
+The current local apps are deployed preview mirrors rather than the original editable source. They are useful for demo review, documentation, and rebuild planning. The editable Lovable/Git source was not exposed by the preview links inspected in this chat.
 
 ## Current Preview
 
@@ -27,6 +27,7 @@ The current local app is a deployed preview mirror rather than the original edit
 | Path | Purpose |
 | --- | --- |
 | `runway-arcade-local/` | Static local mirror of the current Lovable deployed bundle. |
+| `blockhaven-local/` | Static local mirror of the Blockhaven Lovable deployed bundle. |
 | `docs/` | Product, technical, API, calculation, security, QA, rebuild and user documentation. |
 | `materials/` | Project collateral for hackathon submission, judging, pitch, handover and launch copy. |
 
@@ -42,7 +43,9 @@ The Tiger Mum persona is documented in `materials/tiger-mum-cashflow-persona.md`
 
 The local `runway-arcade-local/` app is still a mirrored deployed bundle, so source-level changes should happen in the recovered Lovable/Git source or a rebuilt source app, not the minified deployed JavaScript.
 
-## Run The Local App
+## Run Locally
+
+Runway Arcade:
 
 ```sh
 cd runway-arcade-local
@@ -54,6 +57,21 @@ Open:
 ```text
 http://localhost:4173/
 ```
+
+Blockhaven:
+
+```sh
+cd blockhaven-local
+PORT=4174 npm start
+```
+
+Open:
+
+```text
+http://localhost:4174/
+```
+
+Both mirrors default to port `4173`, so run them one at a time or set `PORT` for one of them.
 
 ## Sync A Lovable Preview
 
