@@ -7,7 +7,7 @@ The original editable Lovable/Git source was not exposed by the preview link. Th
 Current mirrored preview:
 
 ```text
-https://lovable.dev/preview/TYhH7O7Qgaw7vADijhV1XLv7wyAKD9E1
+https://lovable.dev/preview/RtONOpDgIUr6kC4hMi2EP9Jc0u151dSl
 ```
 
 Current deployed revision is recorded in `mirror-info.json`.

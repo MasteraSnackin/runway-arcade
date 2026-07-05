@@ -12,6 +12,13 @@ The current local apps are deployed preview mirrors rather than the original edi
 - Current deployed revision: `a1bbe10e2a867d78dfaa7354152e0abd5a8b8221`
 - Last synced locally: `2026-07-04T17:17:25Z`
 
+## Blockhaven Preview Mirror
+
+- Current Lovable preview: `https://lovable.dev/preview/RtONOpDgIUr6kC4hMi2EP9Jc0u151dSl`
+- Local mirror: `blockhaven-local/`
+- Local URL: `http://localhost:4173/`
+- Current deployed revision: `d2a1e54622d7634cb9bedcd695f5dd31ef77cbe0`
+
 ## Screenshots
 
 ### Dashboard Overview
