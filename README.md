@@ -13,6 +13,7 @@ This repository contains the hackathon documentation pack, submission material a
 ## Table of Contents
 
 - [Features](#features)
+- [Core Experience](#core-experience)
 - [Tech Stack](#tech-stack)
 - [Architecture Overview](#architecture-overview)
 - [Installation](#installation)
@@ -36,6 +37,20 @@ This repository contains the hackathon documentation pack, submission material a
 - MAYDAY planning mode for urgent cash squeeze scenarios.
 - Approval-gated actions for chase, delay, payment-route and recovery simulations.
 - Audit and handover documentation for judges, reviewers and future maintainers.
+
+## Core Experience
+
+### Xero AI Co-Pilot
+
+The AI Co-Pilot is the finance operator inside Runway Arcade. It answers cashflow questions, runs preset prompts, explains runway and recovery options, and ties recommendations back to evidence cards instead of unsupported model guesses.
+
+It is designed to stay inside clear financial guardrails: use Xero-derived data, cite source records, distinguish demo fallback from live state, and require approval before any payment, customer chase, supplier contact or future Xero write.
+
+### Cash Quest
+
+Cash Quest turns finance operations into a playable map. The founder walks up to customers, suppliers and costs, chooses an action, and sees the projected impact on runway, cash HP, relationship risk and expected inflow.
+
+The game layer is still evidence-led: each encounter links back to invoices, bills or other finance records, and approvals remain simulation-only until production write controls are added.
 
 ## Tech Stack
 
@@ -147,6 +162,14 @@ The MVP should use least-privilege Xero read scopes. Write scopes should remain 
 ### MAYDAY / Judge Demo State
 
 ![Runway Arcade MAYDAY protocol demo](materials/screenshots/runway-arcade-judge-demo.png)
+
+### Xero AI Co-Pilot
+
+![Xero AI Co-Pilot panel](materials/screenshots/xero-ai-copilot.png)
+
+### Cash Quest
+
+![Cash Quest customer recovery encounter](materials/screenshots/cash-quest-encounter.png)
 
 ## API and CLI Reference
 
