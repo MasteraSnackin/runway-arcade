@@ -44,6 +44,7 @@ The latest 2026-07-04 sync to revision `a1bbe10e2a867d78dfaa7354152e0abd5a8b8221
 18. [Decision Log](18-decision-log.md)
 19. [Lovable Rebuild Pack](19-lovable-rebuild-pack.md)
 20. [Tiger Mum Mode Integration Guide](20-tiger-mum-integration-guide.md)
+21. [Lovable Recreate Prompt](21-lovable-recreate-prompt.md)
 
 Standalone diagram sources are in [diagrams/](diagrams/).
 
